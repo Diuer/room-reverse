@@ -1,0 +1,39 @@
+.room-allocation-container {
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	max-width: 360px;
+	max-height: 90vh;
+	padding: 0 10px 10px 10px;
+	border: 1px solid #eee;
+	border-radius: 10px;
+	overflow-y: auto;
+	box-sizing: border-box;
+
+	.room-overview {
+		position: sticky;
+		padding: 10px 0 10px 0;
+		top: 0;
+		background: #fff;
+	}
+
+	.unselected-amount {
+		margin: 10px 0;
+		padding: 5px;
+		color: #777;
+		font-size: 14px;
+		border: 1px solid #88cef1;
+		border-radius: 5px;
+		background: #b2e9f4;
+		box-sizing: border-box;
+	}
+
+	.separate-line {
+		display: block;
+		width: 100%;
+		height: 1px;
+		margin: 5px 0;
+		background: #eee;
+	}
+}
