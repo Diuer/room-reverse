@@ -1,41 +1,41 @@
 .input-custom-container {
-	display: flex;
+  display: flex;
 
-	.btn,
-	.input-number {
-		width: 48px;
-		height: 48px;
-		font-size: 16px;
-		margin: 8px;
-	}
+  .btn,
+  .input-number {
+    width: 48px;
+    height: 48px;
+    font-size: 16px;
+    margin: 8px;
+  }
 
-	.btn {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		color: #3cbee1;
-		border: 1px solid #3cbee1;
-		border-radius: 8px;
-		background: none;
-		cursor: pointer;
+  .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3cbee1;
+    border: 1px solid #3cbee1;
+    border-radius: 8px;
+    background: none;
+    cursor: pointer;
 
-		&[disabled] {
-			cursor: not-allowed;
-			border: 1px solid #ccc;
-			color: #ccc;
-		}
-	}
+    &[disabled] {
+      cursor: not-allowed;
+      border: 1px solid #ccc;
+      color: #ccc;
+    }
+  }
 
-	input {
-		text-align: center;
-		border: 1px solid #ccc;
-		border-radius: 8px;
-	}
+  input {
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
 
-	input[type="number"]::-webkit-outer-spin-button,
-	input[type="number"]::-webkit-inner-spin-button {
-		-webkit-appearance: none;
-		-moz-appearance: textfield;
-		margin: 0;
-	}
+  input[type="number"]::-webkit-outer-spin-button,
+  input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+    margin: 0;
+  }
 }

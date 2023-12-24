@@ -1,15 +1,14 @@
 .per-room-container {
-	.per-room-row {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
+  .per-room-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
-		p{
-
-			span{
-				font-size: 14px;
-				color: #aaa;
-			}
-		}
-	}
+    p {
+      span {
+        font-size: 14px;
+        color: #aaa;
+      }
+    }
+  }
 }
